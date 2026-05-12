@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-navy: #0D1B2A;
+  --color-brand-navy-light: #162032;
+  --color-brand-gold: #E8A020;
+  --color-brand-gold-light: #F5C842;
+  --color-brand-cream: #FDF9F2;
+  --color-brand-cream-light: #F8F6F1;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-cream text-brand-navy selection:bg-brand-gold/30;
+  }
+}
