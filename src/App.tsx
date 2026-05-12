@@ -98,7 +98,7 @@ export default function App() {
             className="space-y-6"
           >
             <a 
-              href="#comprar" 
+              href="https://pay.hotmart.com/O105792845M" 
               className="inline-flex items-center gap-2 bg-gradient-to-br from-brand-gold to-brand-gold-light hover:to-white text-brand-navy px-10 py-5 rounded-md text-lg font-extrabold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-brand-gold/40 active:translate-y-0"
               id="hero-cta"
             >
@@ -434,7 +434,7 @@ export default function App() {
               </ul>
 
               <a 
-                href="#" 
+                href="https://pay.hotmart.com/O105792845M" 
                 className="block w-full bg-brand-navy hover:bg-black text-white text-lg font-black py-5 rounded-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-xl hover:shadow-brand-navy/30 active:translate-y-0 text-center mb-6"
                 id="pricing-cta"
               >
@@ -533,7 +533,7 @@ export default function App() {
             transition={{ delay: 0.4 }}
           >
             <a 
-              href="#comprar" 
+              href="https://pay.hotmart.com/O105792845M" 
               className="inline-flex items-center gap-3 bg-gradient-to-br from-brand-gold to-brand-gold-light text-brand-navy px-12 py-6 rounded-2xl text-xl font-black transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-brand-gold/40 active:translate-y-0"
               id="final-cta-btn"
             >
