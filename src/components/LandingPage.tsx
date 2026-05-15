@@ -14,11 +14,14 @@ export default function LandingPage({ setPage }: { setPage?: (page: string) => v
 
   return (
     <>
+    <header>
       {/* ANNOUNCEMENT BAR */}
       <div className="topbar">
         ⚠ A Reforma Tributária já está em vigor — sua empresa ainda tem tempo de se reposicionar
       </div>
+    </header>
 
+    <main>
       {/* HERO */}
       <section className="hero">
         <div className="container">
@@ -436,6 +439,7 @@ export default function LandingPage({ setPage }: { setPage?: (page: string) => v
           </div>
         </div>
       </section>
+    </main>
 
       {/* FOOTER */}
       <footer>
